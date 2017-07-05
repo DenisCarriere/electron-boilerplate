@@ -1,9 +1,12 @@
 'use strict';
 const electron = require('electron');
-const sqlite3 = require('sqlite3');
+// const sqlite3 = require('sqlite3');
 
-console.log(sqlite3)
+console.log(process.versions)
 
+// Electron 1.6.0 => Module 54
+// Electron 1.6.0 => Module 53
+// Electron 1.5.0 => Module 51
 const app = electron.app;
 
 // Adds debug features like hotkeys for triggering dev tools and reload
