@@ -1,5 +1,8 @@
 'use strict';
 const electron = require('electron');
+const sqlite3 = require('sqlite3');
+
+console.log(sqlite3)
 
 const app = electron.app;
 
